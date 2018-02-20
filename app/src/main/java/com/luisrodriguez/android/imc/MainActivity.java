@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         Button mBotonCalcular = (Button) findViewById(R.id.boton_calcular);
         Button mBotonLimpiar = (Button) findViewById(R.id.boton_limpiar);
         final  TextView mEtiquetaImc = (TextView) findViewById(R.id.etiqueta_imc);
-        //Se programa el boton Calcular
+        //Se programa el Boton Calcular
         mBotonCalcular.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 mEtiquetaImc.setText(s);
             }
         });
-        //Se programa el boton Limpiar
+        //Se programa el Boton Limpiar
         mBotonLimpiar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
